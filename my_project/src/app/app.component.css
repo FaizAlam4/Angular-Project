@@ -1,16 +1,24 @@
 h1{
     width: 50%;
-    height: 90px;
+    height: auto;
     text-align: center;
 margin: auto;
 background-color: rgb(244, 254, 255);
 padding-left: 30px;
 padding-top: 17px;
+padding-bottom: 17px;
 border: 1px solid rgb(228, 240, 227);
 }
+
 
 /* .nvsr{
 
     position: sticky;
     top: 2px;
 } */
+
+@media only screen and (max-width:342px) {
+    h1{
+        width: 100%;
+    }
+}

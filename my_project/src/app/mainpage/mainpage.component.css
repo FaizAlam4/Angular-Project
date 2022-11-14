@@ -8,5 +8,22 @@
     /* flex-direction: row; */
     flex-flow: row wrap;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+@keyframes example {
+    0%   {transform: rotate(1deg);}
+    25%  {transform: rotate(4deg);}
+    50%  {transform: rotate(6deg);}
+    100% {transform: rotate(9deg);}
+  }
+
+/* .cit:hover{
+    transform: rotate(10deg);
+} */
+
+.cit:hover{
+    animation-name: example;
+  animation-duration: 4s;
 }
