@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+.cont{
+
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
