@@ -34,3 +34,11 @@
 .ct:hover{
   background-color: #2ba1b5;
 }
+
+@media only screen and (max-width:639px){
+.ccd{
+
+  margin-bottom: 20px;
+
+}
+}
