@@ -27,3 +27,10 @@
     animation-name: example;
   animation-duration: 4s;
 }
+
+.ct{
+  background-color:#12879b;
+}
+.ct:hover{
+  background-color: #2ba1b5;
+}

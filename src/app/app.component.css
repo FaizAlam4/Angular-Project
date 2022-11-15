@@ -1,3 +1,22 @@
+
+@keyframes slidein {
+    from {
+      transform: translateX(+100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+
+   
+  }
+
+  @keyframes opac{
+    from{
+        opacity: 0.1;
+    }
+    to{opacity: 1;}
+  }
+
 h1{
     width: 50%;
     height: auto;
@@ -8,9 +27,20 @@ padding-left: 30px;
 padding-top: 17px;
 padding-bottom: 17px;
 border: 1px solid rgb(228, 240, 227);
+border-radius: 6px;
+
+
+animation: slidein 1000ms, opac 1000ms;
+
+
 }
-
-
+ 
+/* @keyframes cf{
+    /* 0%   {left:}
+    25%  {opacity: 0.6;}
+    50%  {opacity:0.9;} */
+    
+    
 /* .nvsr{
 
     position: sticky;
