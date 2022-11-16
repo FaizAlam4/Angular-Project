@@ -6,7 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
-import { HiComponent } from './hi/hi.component';
+
 
 
 @NgModule({
@@ -16,7 +16,7 @@ import { HiComponent } from './hi/hi.component';
     MainpageComponent,
     LoginComponent,
     SignupComponent,
-    HiComponent
+ 
   ],
   imports: [
     BrowserModule,

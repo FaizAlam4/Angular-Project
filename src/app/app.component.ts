@@ -12,7 +12,7 @@ export class AppComponent {
     setTimeout(() => {
     
       this.str='';
-      this.title="Easy Helper with Self Assessment automated System ";
+      this.title="Easy Helper with Self Assessment Automated System ";
     }, 2000);
   }
   
