@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'EhSaas';
+  str:string="Welcome to";
+  constructor(){
+    setTimeout(() => {
+    
+      this.str='';
+      this.title="Easy Helper with Self Assessment automated System ";
+    }, 2000);
+  }
   
 }
