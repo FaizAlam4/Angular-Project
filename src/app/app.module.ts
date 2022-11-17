@@ -6,6 +6,8 @@ import { HeaderComponent } from './header/header.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
+import { MydetailComponent } from './mydetail/mydetail.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 
@@ -16,6 +18,8 @@ import { SignupComponent } from './auth/signup/signup.component';
     MainpageComponent,
     LoginComponent,
     SignupComponent,
+    MydetailComponent,
+    HomepageComponent,
  
   ],
   imports: [
