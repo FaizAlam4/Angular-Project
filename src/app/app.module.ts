@@ -8,7 +8,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { MydetailComponent } from './mydetail/mydetail.component';
 import { HomepageComponent } from './homepage/homepage.component';
-
+import {FormsModule} from '@angular/forms'
 
 
 @NgModule({
@@ -24,7 +24,7 @@ import { HomepageComponent } from './homepage/homepage.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

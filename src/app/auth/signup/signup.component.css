@@ -1,4 +1,47 @@
 *{
     box-sizing: border-box;
-    height: 100vh;
+  
+}
+
+
+.news{
+    background-color:#096381;
+    height: 100%;
+    margin: 20px 50px;
+    padding: 30px;
+    color: white;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+.fg2{
+    width: 30%;
+    height: 140px;
+    /* display: block;
+    margin: auto; */
+    margin-bottom: 30px;
+    animation: op 1000ms;
+}
+.reg{
+    width:12%;
+    margin: auto;
+    font-size: larger;
+    /* text-decoration: underline; */
+    animation: op 1000ms;
+    margin-bottom: 40px;
+}
+
+.no{
+    background-color: #659c9a;
+    border: 0.3px solid white;
+}
+
+
+@keyframes op{
+
+    from{
+transform: translateY(100%);
+    }
+    to {
+transform: translateY(0%);
+    }
 }
