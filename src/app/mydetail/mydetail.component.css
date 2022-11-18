@@ -1,7 +1,70 @@
-*
-{
-    background-image: url('C:\Users\Faiz Alam\Documents\Angular\project_main_2022\src\pexels-mudassir-ali-2680270.jpg');
-    height: 100vh;
-    overflow: hidden;
-  
+
+*{
+    box-sizing: border-box;
 }
+
+.cf{
+    width: 100%;
+  /* height: auto; */
+    /* background-color: rgb(5, 33, 49); */
+color: white;
+padding: 20px;
+   
+   
+}
+
+
+  @keyframes opac{
+    from{
+        opacity: 0.1;
+    }
+    to{opacity: 1;}
+  }
+
+img{
+    width: 35vh;
+    height: 40vh;
+    display: block;
+    margin:  auto;
+    padding-top: 10px;
+    border-radius: 150px;
+    border: 3px solid rgb(81, 133, 163);
+    transform: rotate(-2deg);
+    animation: opac 2000ms;
+}
+/* h5{
+    position: absolute;
+    top: 150px;
+    left:320px;
+}
+h4{
+    font-style: italic;
+    font-weight: 100;
+    font-size: small;
+    position: absolute;
+    top: 180px;
+    left: 295px;
+} */
+
+
+
+.content{
+  width: 80%;
+  height:40%;
+  margin: 40px auto;
+  text-align: center;
+
+  padding-left: 0px;
+  /* border: 3px dotted rgb(22, 58, 79); */
+  padding: 20px 20px;
+}
+
+.g{
+  /* background-color: #0c3359; */
+width: 88%;
+  margin: auto;
+}
+ a{
+ text-decoration: none;
+ color: white;
+ }

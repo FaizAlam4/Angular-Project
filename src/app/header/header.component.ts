@@ -11,6 +11,15 @@ export class HeaderComponent implements OnInit {
   navig(): void {
     this.router.navigate(['about']);
   }
+  navigf(): void {
+    this.router.navigate(['feature']);
+  }
+  navigl(): void {
+    this.router.navigate(['login']);
+  }
+  navigs(): void {
+    this.router.navigate(['signup']);
+  }
 
  
 
