@@ -1,0 +1,13 @@
+<div class="my-3">
+    <h4>Add Your Detail</h4>
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="title"> Title</label>
+          <input type="text" [(ngModel)]="title" class="form-control" id="title" name="title" aria-describedby="emailHelp"> 
+        </div>
+        <div class="form-group">
+          <label for="desc">Field Description</label>
+          <input type="text" class="form-control" name="desc" id="desc" [(ngModel)]="desc">
+        </div> 
+        <button type="submit" class="btn btn-sm btn-primary g my-3">Add Information</button>
+      </form></div>

@@ -8,7 +8,10 @@ import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { MydetailComponent } from './mydetail/mydetail.component';
 import { HomepageComponent } from './homepage/homepage.component';
-import {FormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms';
+import { TodosComponent } from './todos/todos.component';
+import { AddTodoComponent } from './add-todo/add-todo.component';
+import { TodoItemComponent } from './todo-item/todo-item.component'
 
 
 @NgModule({
@@ -20,6 +23,9 @@ import {FormsModule} from '@angular/forms'
     SignupComponent,
     MydetailComponent,
     HomepageComponent,
+    TodosComponent,
+    AddTodoComponent,
+    TodoItemComponent,
  
   ],
   imports: [

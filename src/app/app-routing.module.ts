@@ -6,6 +6,7 @@ import { SignupComponent } from './auth/signup/signup.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { MydetailComponent } from './mydetail/mydetail.component';
+import { TodosComponent } from './todos/todos.component';
 
 const routes: Routes = [
   {
@@ -20,7 +21,7 @@ const routes: Routes = [
 
   {
     path:'feature',
-    component:MainpageComponent
+    component:TodosComponent
   },
   {
     path:'login',
