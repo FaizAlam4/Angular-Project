@@ -30,15 +30,26 @@
   padding-top: 40px
 
 }
+
+
+.error{
+    color: red;
+    font-size: smaller;
+}
+
 .yes{
-
-
-display: block;
-margin: auto;
 background-color: #659c9a;
 border: 0.3px solid white;
 
 }
+
+.but{
+    width: 20%;
+    margin: auto;
+   /* border:1px solid black; */
+    
+}
+
 
 .fg{
     width: 20%;
@@ -66,3 +77,9 @@ border: 0.3px solid white;
     from{transform: opacity(0.1);}
     to {transform:opacity(1);}
 } */
+@media screen and (max-width: 575px) {
+    .but
+  {
+margin-left: 5px;
+  }
+}
